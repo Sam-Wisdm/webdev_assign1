@@ -26,6 +26,10 @@
     text-align: center;
 }
 
+.arr{
+    display: none;
+}
+
 .menu{
     display: none;
 }
@@ -342,8 +346,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -25%;
-    padding: 15px 170px;
+    /* margin-top: -25%; */
+    /* padding: 15px 170px; */
 }
 
 .music_2{
@@ -543,8 +547,14 @@
     font-weight: bold;
 }
 
+.stud_comment_media{
+    display: flex;
+    /* flex-direction: column; */
+}
+
 .stud_b{
     width: 8px;
+    height: 100%;
     height: 200px;
     background-color: rgb(0, 178, 233); 
 }
@@ -655,6 +665,17 @@
 
 @media only screen and (max-width: 1050px) {
 
+    .head_but{
+        display: none;
+    }
+
+    .arr{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    
+
     #cart{
         display: block;
         margin: 20px;
@@ -668,10 +689,10 @@
         display: none;
     }
 
-    .logo{
+    /* .logo{
         width: 25%;
         min-width: 15%;
-    }
+    } */
 
     /* .nav_options{
         width: 50%;
@@ -691,32 +712,147 @@
         width: 100%;
         background-color: #333;
         z-index: 1;
-      }
-    
-      .nav_options ul.show {
-        display: flex;
-      }
-    
-      .nav_options li {
-        width: 100%;
-        text-align: center;
-      }
-    
-      .nav_options li a {
-        padding: 15px; /* Adjust the padding for better spacing */
-      }
-    
-      .menu-toggle {
+    }
+
+    .nav_options ul.show {
+    display: flex;
+    }
+
+    .nav_options li {
+    width: 100%;
+    text-align: center;
+    }
+
+    .nav_options li a {
+    padding: 15px; /* Adjust the padding for better spacing */
+    }
+
+    .menu-toggle {
         display: block;
         cursor: pointer;
         margin-right: 30px;
-      }
-    
-      .msg li{
+    }
+
+    .msg li{
         display: none; /* Hide the icons by default on smaller screens */
-      }
-    
-      #logo {
+    }
+
+    #logo {
         margin-left: 0; /* Adjust the margin to better position the logo */
-      }
+    }
+
+    .wel_sec1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+        align-items: center;     
+    }
+
+    .wel_sec1_1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+    }
+
+    .wel_sec2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+        align-items: center;             
+    }
+
+    .music{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .t_1_heading{
+        display: flex;
+        justify-content: center;
+    }
+
+    .t_1_bullet{
+        width: 50%;
+    }
+
+    .bullet{
+        min-width: 8px;
+        min-height: 65px;
+        background-color: rgb(0, 178, 233); 
+    }
+
+    .col_card_img{
+        min-width: 50%;
+    }
+
+    .t_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%;         */
+    }
+
+    .stud_b{
+        min-width: 8px;
+        height: 100%;
+        background-color: rgb(0, 178, 233);         
+    }
+
+    .stud_comment{
+        width: 100%;
+    }
+
+    .stud_comment_media{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .stud_prof{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 50px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .social{
+        padding: 15px 0px;
+    }
+
+    .footer_3{
+        text-align: center;
+    }
 }
