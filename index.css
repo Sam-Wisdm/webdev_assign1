@@ -177,31 +177,12 @@
     color: rgb(0, 178, 233);    
 }
 
-.wel_sec2_2{
-    /* border: solid black 1px;    */
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-}
-
-.wel_sec2_2_top{    
-    /* border: solid black 1px;  */
-    height: 475px;
-    /* height: 50%;    */
-    display: flex;
-    justify-content: space-between;
-}
-
-.wel_sec2_2_bot{    
-    /* border: solid black 1px;    */
-    height: 475px;
-    /* height: 50%;    */
-    display: flex;
-    justify-content: space-between;
-}
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .card_img{
     padding: 0.5% 0.8%;
+    width: 245px; 
+    height: 183px;
 }
 
 .card_detail{
@@ -327,6 +308,16 @@
     padding: 15px 15px;
     box-shadow: 1px 2px 5px 1px #8F8F8F;
 }
+
+.grid_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 50px;
+    padding: 0% 5%;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .music{
     background: linear-gradient(rgba(94, 35, 117, 0.5), rgba(110, 38, 110, 0.5)), url(./Images/Group.png) no-repeat;
@@ -663,6 +654,8 @@
     padding: 20px;
 }
 
+/* --------------------------------------------||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||------------------------------------------------------ */
+
 @media only screen and (max-width: 1050px) {
 
     .head_but{
@@ -855,4 +848,148 @@
     .footer_3{
         text-align: center;
     }
+
+    /* course cards */
+/*
+
+    .card_img{
+        padding: 0.5% 5%;
+        width: 180px;
+        height: 120px;
+    }
+    
+    .card_detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 90px;
+        width: 100%;
+    }
+    
+    .card_detail_1{
+        display: flex;
+        justify-content: start;    
+        align-items: center;
+        padding: 0px 10px;
+        margin: -10px 0px;
+    }
+    
+    .card_rating{
+        background-color: green;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        padding: 0px 10px;
+        height: 27px;
+    }
+    
+    .card_rating_rate{
+        margin: 0px 5px;
+    }
+    
+    .card_count{
+        margin-left: 10px;
+    }
+    
+    .card_detail_3{
+        display: flex;
+        justify-content: start;
+        margin: -13px 0px;
+    }
+    
+    .card_profpic{
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .card_view{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card_view_1{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .card_view_1_1{
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+    
+    .card_view_1_2{
+        display: flex;
+        align-items: center;
+        padding-left: 113px;;
+    }
+    
+    .card_view_2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .card_detail_2{
+        margin: -12px 11px;
+    }
+    
+    
+    .months{
+        color: grey;
+    }
+    
+    .price{
+        color: rgb(82, 82, 82);
+    }
+    
+    .card_but{
+        width: 100%;
+        height: 30px;
+        color: rgb(0, 178, 233);  
+        border: soild rgb(0, 178, 233) 1px;  
+        background-color: #ffffff;
+    }
+    
+    .rate{
+        color: #ffffff;
+    }
+    
+    .count{
+        color: grey;
+    }
+    
+    .un{
+        color: rgb(0, 178, 233);  
+    }
+    
+    .description{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        width: 200px;
+        height: 350px;
+        padding: 10px 10px;
+        box-shadow: 1px 2px 5px 1px #8F8F8F;
+        font-size: 15px;
+    }
+
+*/
+
+    .grid_cards{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto ;
+        gap: 50px;
+        padding: 0% 5%;
+    }
+    
 }
