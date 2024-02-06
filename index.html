@@ -11,7 +11,7 @@
     <!-- <link rel="stylesheet" href="res_css.css"> -->
 </head>
 <body class="body">
-    <div class="header">
+    <header class="header">
         <div class="nav">
             <div class="logo">
                 <a id="logo" href=""><img src="./Logo.png" alt="logo" height="40px"></a>
@@ -25,19 +25,6 @@
                     <li><a href="">Become An Instructor</a></li>
                     <li><a href="">Registration Page</a></li>
                 </ul>
-                <div class="menu">
-                    <label for="nav_options_menu">
-                        <img src="./menu.svg" width="50px" height="50px">
-                    </label>
-                    <select name="" id="nav_options_menu">
-                        <option value="Home">Home</option>
-                        <option value="LEAP">About LEAP</option>
-                        <option value="Courses">Courses</option>
-                        <option value="Instructors">Our Instructors</option>
-                        <option value="Become">Become An Instructor</option>
-                        <option value="Registration">Registration Page</option>
-                    </select>
-                </div>
             </div>
             <div class="msg">
                 <li>
@@ -59,7 +46,17 @@
                         <img src="./user.png" alt="profile_pic" width="40px" height="40px">
                     </a>
                 </li>
-                <img id="cart" width="35" height="35" src="https://img.icons8.com/sf-regular/48/FFFFFF/shopping-cart.png" alt="shopping-cart"/>
+            </div>
+        </div>
+        <div class="nav_hide">
+            <div class="nav_options">
+                <img src="./menu.svg" alt="menu">
+            </div>
+            <div class="logo">
+                <a id="logo" href=""><img src="./Logo.png" alt="logo" height="40px"></a>
+            </div>
+            <div class="cart">
+                <img id="cart" width="55" height="55" src="https://img.icons8.com/sf-regular/48/FFFFFF/shopping-cart.png" alt="shopping-cart"/>
             </div>
         </div>
         <div class="header_center">
@@ -71,7 +68,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </header>
     <div class="welcome">
         <div class="wel_sec1">
             <div class="wel_sec1_1">
@@ -408,36 +405,22 @@
             <button id="music_but">Explore Courses</button>
         </div>
         <div class="music_2">
-            <div class="music_2_top_card">
-                <div class="m_c_1 music_card">
-                    <img src="./Images/piano_child.png" alt="kids">
-                    <div class="music_card_footer">
-                        <p class="m_c_p">Kids</p>
-                    </div>
-                </div>
-                <div class="m_c_2 music_card">
-                    <img src="./Images/guiter_girl.png" alt="teens">
-                    <div class="music_card_footer">
-                        <p class="m_c_p">Teens</p>
-                    </div>
-                </div>
-            </div>
-            <div class="music_2_bot_card">
-                <div class="m_c_3 music_card">
-                    <!-- <a href=""> -->
-                        <img src="./Images/voilin_girl.png" alt="adults">
-                        <div class="music_card_footer">
-                            <p class="m_c_p">Adults</p>
-                        </div>
-                    <!-- </a> -->
-                </div>
-                <div class="m_c_4 music_card">
-                    <img src="./Images/guiter_child.png" alt="adults">
-                    <div class="music_card_footer">
-                        <p class="m_c_p">Tutions</p>
-                    </div>
-                </div>
-            </div>
+            <figure class="music_card">
+                <img src="./Images/piano_child.png" alt="kids">
+                <figcaption class="music_card_caption">Kids</figcaption>                        
+            </figure>
+            <figure class="music_card">
+                <img src="./Images/guiter_girl.png" alt="teens">
+                <figcaption class="music_card_caption">Teens</figcaption>                        
+            </figure>
+            <figure class="music_card">
+                <img src="./Images/voilin_girl.png" alt="adults">
+                <figcaption class="music_card_caption">Adults</figcaption>                        
+            </figure>
+            <figure class="music_card">
+                <img src="./Images/guiter_child.png" alt="adults">
+                <figcaption class="music_card_caption">Tutions</figcaption>                        
+            </figure>
         </div>
     </div>
     <div class="team">
@@ -598,7 +581,7 @@
             </div>
         </div>
     </div>
-    <div class="footer">
+    <footer class="footer">
         <div class="footer_1">
             <p id="footer_1_p"><span id="footer_1_p_s">We'd love to</span> <br> Hear From You</p>
         </div>
@@ -702,8 +685,11 @@
             </div>
         </div>
         <div class="footer_3">
-            <p id="foot_last">© Copyright Yale Music Academy 2020 - All Rights Reserved - Designed by WisdmLabs</p>
+            <p id="foot_last">© Copyright Yale Music Academy 2020 &nbsp;&nbsp;&#8209;&nbsp;&nbsp; All Rights Reserved &nbsp;&nbsp;&#8209;&nbsp;&nbsp; Designed by WisdmLabs</p>
         </div>
-    </div>
+        <div class="footer_3_mobile">
+            <p id="foot_last">© Copyright Yale Music Academy 2020 <br><br> All Rights Reserved <br> Designed by WisdmLabs</p>
+        </div>
+    </footer>
 </body>
 </html>
