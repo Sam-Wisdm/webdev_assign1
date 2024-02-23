@@ -89,7 +89,7 @@ header{
 }
 
 .nav_options li a:hover{
-    color: rgb(0, 178, 233);
+    color: #00bcd4;
 }
 
 .logo{
@@ -111,7 +111,7 @@ header{
 }
 
 .msg li a:hover{
-    color: rgb(0, 178, 233);
+    color: #00bcd4;
 }
 
 .header_center{
@@ -133,7 +133,7 @@ header{
     height: 40px;
     width: 150px;
     font-size: 13px;
-    background-color: rgb(0, 178, 233);
+    background-color: #00bcd4;
     color: black;
     border: none;
 }
@@ -175,7 +175,7 @@ header{
 }
 
 #wel_sec1_2_1_wel{
-    color: rgb(0, 178, 233);
+    color: #00bcd4;
 }
 
 .wel_sec1_3{
@@ -210,7 +210,7 @@ header{
 }
 
 #wel_sec2_1_p_s{
-    color: rgb(0, 178, 233);    
+    color: #00bcd4;    
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -336,7 +336,7 @@ header{
 .card_but{
     width: 100%;
     height: 30px;
-    color: rgb(0, 178, 233);  
+    color: #00bcd4;  
     border: none;  
     border: rgb(0, 178, 233) solid 1px;
     background-color: #ffffff;
@@ -351,7 +351,7 @@ header{
 }
 
 .un{
-    color: rgb(0, 178, 233);  
+    color: #00bcd4;  
 }
 
 .description{
@@ -431,7 +431,7 @@ header{
 }
 
 #music_heading_p_s{
-    color: rgb(0, 178, 233); 
+    color: #00bcd4; 
 }
 
 #music_para_p{
@@ -443,7 +443,7 @@ header{
     height: 40px;
     width: 150px;
     font-size: 13px;
-    background-color: rgb(0, 178, 233);
+    background-color: #00bcd4;
     color: black;
     border: none;
 }
@@ -487,7 +487,7 @@ header{
 }
 
 #t_1_heading_p_s{
-    color: rgb(0, 178, 233); 
+    color: #00bcd4; 
 }
 
 .bullet_p{
@@ -499,7 +499,7 @@ header{
 .bullet{
     width: 8px;
     height: 65px;
-    background-color: rgb(0, 178, 233); 
+    background-color: #00bcd4; 
 }
 
 .col_card{
@@ -515,7 +515,7 @@ header{
 .col_card_name{
     margin: 0;
     font-size: 32px;
-    color: rgb(0, 178, 233); 
+    color: #00bcd4; 
 }
 
 .stud{
@@ -535,7 +535,7 @@ header{
 }
 
 #stud_heading_p_s{
-    color: rgb(0, 178, 233); 
+    color: #00bcd4; 
 }
 
 .stud_comment{
@@ -591,7 +591,7 @@ header{
     justify-content: center;
     color: #8F8F8F;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .stud_comment_media{
@@ -603,7 +603,7 @@ header{
     width: 20px;
     /* height: 100%; */
     height: 200px;
-    background-color: rgb(0, 178, 233); 
+    background-color: #00bcd4; 
 }
 
 .overlay_f{ 
@@ -644,7 +644,7 @@ header{
 }
 #footer_1_p_s{
     font-size: 62px;
-    color: rgb(0, 178, 233); 
+    color: #00bcd4; 
 }
 
 #footer_1_p{
@@ -888,7 +888,7 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 1065px;
+        height: 1100px;
         padding: 0;
     }
 
@@ -902,7 +902,7 @@ header{
     }
 
     .overlay_m{
-        height: 1065px;          
+        height: 1100px;          
     }
 
     .music_1{
@@ -916,7 +916,8 @@ header{
     #music_but{
         width: 100%;
         height: 50px;
-        font-size: 25px;
+        font-size: 20px;
+        font-weight: 400;
     }
 
     .music_heading_p{
@@ -930,10 +931,10 @@ header{
     }
 
     .music_2{
-        margin: 20px;
+        margin: 50px;
         grid-template-columns: 160px 160px;
         grid-template-rows: 210px 210px;
-        gap: 25px;
+        gap: 30px;
     }
 
     .music_card_img{
@@ -953,6 +954,7 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 30px;
     }
 
     .t_1{
@@ -972,19 +974,43 @@ header{
         display: block;
         min-width: 8px;
         min-height: 65px;
-        background-color: rgb(0, 178, 233); 
+        background-color: #00bcd4; 
+    }
+
+    .col_card{
+        font-weight: bolder;
+        padding: 20px 0;
     }
 
     .col_card_img{
         min-width: 50%;
     }
 
+    .col_card_description{
+        margin: 10px 0;
+    }
+
     .t_2{
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* width: 100%;         */
+        width: 100%;        
+    }
+
+    .t_2_col_1, .t_2_col_2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        /* border: 1px solid black; */
+    }
+
+    .col_card_img_i{
+        width: 100%;
+        height: 100%;
     }
 
     .stud{
@@ -992,9 +1018,9 @@ header{
     }
 
     .stud_b{
-        min-width: 15px;
+        min-width: 10px;
         height: 340px;
-        background-color: rgb(0, 178, 233);         
+        background-color: #00bcd4;         
     }
 
     .stud_comment{
@@ -1058,7 +1084,7 @@ header{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
-        padding: 0;
+        padding: 10px;
         gap: 0;
     }
 
@@ -1071,7 +1097,11 @@ header{
         max-width: 300px; 
         width: auto;
         height: auto;  
-        box-shadow: 1px 1px 1px 1px #888888;
+        box-shadow: 0px 1px 0px 0px #b3adad73;
+    }
+
+    .card:nth-child(odd){
+        box-shadow: 1px 1px 0px 0px #b3adad73;
     }
     
     .card_img{
